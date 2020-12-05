@@ -102,6 +102,13 @@
     font-weight: 700;
 }
 
+.box-board {
+    color: #fff;
+    background-color: #202129;
+    border-radius: 40px;
+    padding: 40px;
+}
+
 /*BUTTONS*/
 
 .btn {
