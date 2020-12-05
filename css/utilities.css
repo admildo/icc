@@ -1,0 +1,345 @@
+/*COLORS*/
+
+.smoke {
+    color: #f5f5f5f7;
+}
+
+.dark-blue {
+    color: rgb(14, 14, 82);
+}
+
+.bg-smoke {
+    background-color: rgb(11, 11, 12);
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #fff;
+    color: rgb(14, 14, 15);
+    ;
+}
+
+/*FLEXBOX*/
+
+.hide {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/*BOXES*/
+
+.box {
+    padding: 0px 100px;
+    min-height: 200px;
+    width: 100%;
+}
+
+.box img:hover {
+    transition: transform 0.7s;
+    transform: scale(1.15);
+}
+
+.box img {
+    transition: transform 0.7s;
+    transform: scale(1);
+}
+
+.full-box {
+    width: 100%;
+    min-height: 300px;
+}
+
+.box img {
+    margin-right: 20px;
+}
+
+.box h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+.box h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+}
+
+.content {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.content h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+/*BUTTONS*/
+
+.btn {
+    min-width: 50px;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 300;
+    background-color: rgb(43, 76, 226);
+    ;
+}
+
+.btn-hallow {
+    border: 2px solid rgb(43, 76, 226);
+    border-radius: 18px;
+    color: blueviolet;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.btn-hallow-pro {
+    font-weight: 100;
+    border-radius: 35px;
+    color: rgb(219, 213, 252);
+    padding: 10px 10px;
+}
+
+.btn-hallow-light {
+    border: 2px solid rgb(219, 213, 252);
+    color: rgb(219, 213, 252);
+}
+
+.btn-hallow-light:hover {
+    background-color: rgb(219, 213, 252);
+}
+
+.btn-icon {
+    background-color: rgb(43, 76, 226);
+    margin: 0px 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.btn-icon-light {
+    background-color: rgb(219, 213, 252);
+    color: #333;
+}
+
+.btn-hallow-pro:hover {
+    background-color: rgb(43, 76, 226);
+}
+
+/*MARGINS*/
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.m-25 {
+    margin: 25px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.my-10 {
+    margin: 10px 0px;
+}
+
+.my-15 {
+    margin: 15px 0px;
+}
+
+.my-20 {
+    margin: 20px 0px;
+}
+
+.my-25 {
+    margin: 25px 0px;
+}
+
+/*padding*/
+
+.padding {
+    padding: 300px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.pb-200 {
+    padding-bottom: 200px;
+}
+
+.pb-300 {
+    padding-bottom: 300px;
+}
+
+.px-20 {
+    padding: 0px 20px;
+}
+
+.px-20 {
+    padding: 0px 300px;
+}
+
+.py-20 {
+    padding: 20px 0px;
+}
+
+.py-40 {
+    padding: 40px 0px;
+}
+
+.py-50 {
+    padding: 50px 0px;
+}
+
+.py-100 {
+    padding: 100px 0px;
+}
+
+.py-150 {
+    padding: 150px 0px;
+}
+
+.py-200 {
+    padding: 200px 0px;
+}
+
+.py-300 {
+    padding: 300px 0px;
+}
+
+.videoplay {
+    background-color: wheat;
+    width: 100%;
+    height: 500px;
+}
+
+.videoplay video {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+/*text**/
+
+.paragram {
+    width: 50%;
+}
+
+.small {
+    font-size: 1.4rem;
+}
+
+.font-600 {
+    font-weight: 600!important;
+}
+
+.font-700 {
+    font-weight: 700600!important;
+}
+
+.font-900 {
+    font-weight: 900!important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.letter-2 {
+    letter-spacing: 1px;
+}
+
+.text-container {
+    width: 50%;
+}
