@@ -4,6 +4,10 @@
     color: #f5f5f5f7;
 }
 
+.gray {
+    color: rgb(231, 209, 6);
+}
+
 .dark-blue {
     color: rgb(14, 14, 82);
 }
@@ -349,4 +353,15 @@
 
 .text-container {
     width: 50%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/*memojis*/
+
+.memojies {
+    width: 400px;
+    height: 400px;
 }

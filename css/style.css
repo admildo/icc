@@ -194,7 +194,7 @@ nav {
 
 .cover {
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #ffff;
     background-color: #000;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ nav {
 .bg-image1 {
     width: 100%;
     height: 850px;
-    background-image: url('/img/desktop.jpg');
+    background-image: url('../img/desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -230,7 +230,7 @@ nav {
 .bg-image2 {
     width: 100%;
     height: 850px;
-    background-image: url('/img/desk.jpg');
+    background-image: url('../img/desk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
