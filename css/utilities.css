@@ -365,3 +365,9 @@
     width: 400px;
     height: 400px;
 }
+
+/*display*/
+
+.hide {
+    display: none;
+}
