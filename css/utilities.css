@@ -5,7 +5,7 @@
 }
 
 .gray {
-    color: rgb(231, 209, 6);
+    color: rgb(230, 230, 230);
 }
 
 .dark-blue {
@@ -408,8 +408,8 @@
         width: 90%;
     }
     .memojies {
-        width: 300px!important;
-        height: 280px;
+        width: 280px!important;
+        height: 250px;
         align-self: center;
     }
     .bg-image2, .bg-image1 {
