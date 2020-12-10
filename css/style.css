@@ -309,3 +309,9 @@ nav {
         color: #fff;
     }
 }
+
+@media(max-width:570px) {
+    nav {
+        padding: 0px 20px;
+    }
+}
