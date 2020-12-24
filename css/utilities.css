@@ -23,6 +23,10 @@
     ;
 }
 
+.hide-on-desktop {
+    display: none;
+}
+
 /*FLEXBOX*/
 
 .hide {
@@ -102,7 +106,7 @@
 }
 
 .content h1 {
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -119,6 +123,10 @@
 }
 
 /*BUTTONS*/
+
+.button-group .btn {
+    margin: 20px 10px;
+}
 
 .btn {
     min-width: 50px;
@@ -232,6 +240,10 @@
 
 .my-10 {
     margin: 10px 0px;
+}
+
+.mx-10 {
+    margin: 0px 10px;
 }
 
 .my-15 {
@@ -364,11 +376,52 @@
     text-decoration: underline;
 }
 
+.stroke {
+    text-decoration: line-through;
+}
+
+.wavy {
+    text-decoration: wavy underline #fff;
+}
+
+.text-green {
+    color: rgb(17, 153, 142);
+}
+
+.text-yellow {
+    color: rgb(255, 217, 0);
+}
+
+.text-orage {
+    color: orange;
+}
+
 /*memojis*/
 
 .memojies {
     width: 400px;
     height: 400px;
+}
+
+.memojies-list {
+    flex-wrap: wrap;
+}
+
+.memojies-list .memojies {
+    width: 350px;
+    height: 350px;
+}
+
+/**cover**/
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 
 /**FLEXBO**/
@@ -388,6 +441,32 @@
 }
 
 @media(max-width:570px) {
+    .hide-on-desktop {
+        display: flex;
+    }
+    .footer .link {
+        font-size: 13px;
+    }
+    .message {
+        height: 30px;
+    }
+    .newslatter h1 {
+        font-size: 18px
+    }
+    .footer {
+        padding: 20px 30px;
+    }
+    .footer .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .footer div, .info div {
+        margin-bottom: 30px;
+    }
+    .info h1 {
+        font-size: 0.7em;
+        ;
+    }
     .grid {
         display: grid;
         grid-template-columns: 80%;
@@ -412,10 +491,31 @@
         height: 250px;
         align-self: center;
     }
-    .bg-image2, .bg-image1 {
-        width: 100px;
-        height: 400px;
-        display: none;
+    .memojies-list .memojies {
+        width: 150px!important;
+        height: 150px;
+        align-self: none;
+    }
+    .bg-image2, .bg-image1, .bg-image3 {
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+    }
+    .cover {
+        padding: 0px 10px 0px 10px;
+        background-color: rgba(0, 0, 0, 0.60);
+    }
+    .cover h1 {
+        line-height: 45px;
+    }
+    .bg-image1 {
+        background-size: 100% 80%;
+    }
+    .bg-image3 {
+        background-image: url('../img/mulhersmall.jpg');
+    }
+    .bg-image3 .cover {
+        padding: 20px;
     }
     .hide-on-mobile {
         display: none;
