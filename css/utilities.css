@@ -441,6 +441,9 @@
 }
 
 @media(max-width:570px) {
+    .landing {
+        margin-top: 80px;
+    }
     .hide-on-desktop {
         display: flex;
     }
