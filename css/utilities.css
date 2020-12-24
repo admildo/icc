@@ -526,6 +526,9 @@
 }
 
 @media(max-width:320px) {
+    .landing {
+        margin-top: 60px;
+    }
     .box h1 {
         font-size: 1.8rem;
     }
