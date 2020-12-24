@@ -65,14 +65,13 @@ h4, h5, h6 {
 .font-logos {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .font-logos a {
     font-family: 'Londrina Outline', cursive;
     font-size: 1.7rem;
-    font-weight: bold;
-    font-style: italic;
     margin: 20px;
     color: rgb(1, 5, 19)!important;
 }

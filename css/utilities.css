@@ -292,6 +292,10 @@
     padding: 20px 0px;
 }
 
+.py-20 {
+    padding: 20px;
+}
+
 .py-40 {
     padding: 40px 0px;
 }
@@ -441,6 +445,13 @@
 }
 
 @media(max-width:570px) {
+    .font-logos a {
+        font-size: 1.3rem;
+    }
+    .content {
+        font-size: 1.2rem;
+        padding: 25px;
+    }
     .landing {
         margin-top: 80px;
     }
@@ -490,8 +501,8 @@
         width: 90%;
     }
     .memojies {
-        width: 280px!important;
-        height: 250px;
+        width: 260px!important;
+        height: 230px;
         align-self: center;
     }
     .memojies-list .memojies {
@@ -512,7 +523,7 @@
         line-height: 45px;
     }
     .bg-image1 {
-        background-size: 100% 80%;
+        background-image: url('../img/prizesmall.jpg');
     }
     .bg-image3 {
         background-image: url('../img/mulhersmall.jpg');
@@ -526,6 +537,9 @@
 }
 
 @media(max-width:320px) {
+    .content {
+        font-size: 1rem;
+    }
     .landing {
         margin-top: 60px;
     }
