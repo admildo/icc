@@ -1,9 +1,34 @@
-let me = document.getElementById('memo');
-let memoji = document.getElementById('memoji');
-let menu = document.getElementById('menuToogle');
-let social = document.getElementById('socail');
-let count = 1;
-let count2 = 11;
+var me = document.getElementById('memo');
+var memoji = document.getElementById('memoji');
+var menu = document.getElementById('menuToogle');
+var social = document.getElementById('socail');
+var slideItens = document.getElementsByClassName('slide-item');
+var count = 0;
+var count2 = 11;
+var target = 5;
+setInterval(() => {
+
+    //slideItens[count].style
+    if (count < target) {
+        slideItens[count].classList.remove('hide')
+
+        if (count > 0) {
+            slideItens[count - 1].classList.add('hide')
+        }
+
+
+    }
+
+    if (count >= target) {
+        slideItens[count - 1].classList.add('hide')
+        count = 0
+        slideItens[count].classList.remove('hide')
+    }
+    count++
+    console.log(count)
+}, 2000);
+
+/*
 setInterval(() => {
     me.src = `img/fme${count}.PNG`
     if (count <= 5) {
